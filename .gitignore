@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Local datasets
+data/raw/
+dataset/
+dataset_normalized/
+
+# Generated audio
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# But keep demo audio
+!demo_noise/
+!demo_noise/**/*.wav
+
+# Generated outputs
+outputs/
+results/
+
+# Development backups
+*_backup.py
+*.bak
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.temp
